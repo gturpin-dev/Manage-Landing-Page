@@ -1,3 +1,25 @@
 body {
+	overflow-x: hidden;
 	background: url("../../images/bg-tablet-pattern.svg") no-repeat top -150px right -20px;
+}
+
+.testimonials {
+	position: relative;
+	
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: 100%;
+		left: 0;
+		transform: translate(-50%, 50%);
+		width: 814px;
+		height: 814px;
+		background: url("../../images/bg-tablet-pattern.svg") no-repeat center center;
+		background-size: cover;
+		
+	}
+}
+
+.slick-list {
+	margin: 0 -150px;
 }
