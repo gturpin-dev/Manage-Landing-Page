@@ -16,10 +16,16 @@ body {
 		height: 814px;
 		background: url("../../images/bg-tablet-pattern.svg") no-repeat center center;
 		background-size: cover;
-		
 	}
 }
 
 .slick-list {
 	margin: 0 -150px;
+}
+
+footer .footer__upper {
+	position: relative;
+	overflow: hidden;
+	background: url("../../images/bg-simplify-section-desktop.svg") no-repeat bottom right -250px;
+	background-size: cover;
 }
