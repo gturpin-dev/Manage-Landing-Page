@@ -1,0 +1,21 @@
+// Mixins
+@import 'mixins/mixins';
+
+// Vendors
+// Comment and Uncomment to enable or not in the project
+// @import 'vendor/family'; // https://lukyvj.github.io/family.scss/  | a set mixins which will help you to manage the style of :nth-child’ified elements, in an easy and classy way.
+$gl-colName: gl_col;
+@import 'vendor/gridlex/gridlex'; // http://gridlex.devlint.fr/  | css grid system to quickly create modern layouts and submodules.
+
+// Base
+@import 'core/reset';
+@import 'core/color-palet';
+@import 'core/variables';
+@import 'core/base';
+@import 'core/typography';
+
+// Utilities
+@import 'utilities/utilities';
+
+// Development
+@import "dev/main";

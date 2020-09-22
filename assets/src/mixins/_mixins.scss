@@ -1,0 +1,10 @@
+// import all mixins that aren't categorized
+@import 'base-mixins';
+
+// import partials mixins
+@import 'breakpoints';
+@import 'buttons';
+@import 'links';
+@import 'typography';
+@import 'text';
+@import 'variables';
