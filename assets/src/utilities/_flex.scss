@@ -28,12 +28,14 @@
     .#{$infix}justify-end { justify-content: flex-end !important; }
     .#{$infix}justify-between { justify-content: space-between !important; }
     .#{$infix}justify-around { justify-content: space-around !important; }
+    .#{$infix}justify-baseline { justify-content: baseline !important; }
 
     .#{$infix}align-center { align-items: center !important; }
     .#{$infix}align-start { align-items: flex-start !important; }
     .#{$infix}align-end { align-items: flex-end !important; }
     .#{$infix}align-between { align-items: space-between !important; }
     .#{$infix}align-around { align-items: space-around !important; }
+    .#{$infix}align-baseline { align-items: baseline !important; }
 
     .#{$infix}content-center { align-content: center !important; }
     .#{$infix}content-start { align-content: flex-start !important; }
